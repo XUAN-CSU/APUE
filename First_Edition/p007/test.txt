@@ -1,0 +1,2 @@
+wlc test for the input typing
+end the test just ctrl + c
