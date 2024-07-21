@@ -11,8 +11,10 @@ int main(void)
 	char buf[BUFFSIZE];
 
 	while ( (n = read(STDIN_FILENO, buf, BUFFSIZE)) > 0)
-		if (write(STDOUT_FILENO, buf, n) != n)
+		if (write(STDOUT_FILENO, buf, n) != n) {
+			printf("Write error : %s\n", strerror(errno));
 			perror("Write error");
+		}
 
 		if (n < 0)
 		perror("Read rror");
