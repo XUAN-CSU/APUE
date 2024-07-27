@@ -48,5 +48,5 @@ void sig_int(int signo)
 
 void err_ret(const char *msg)
 {
- 	fprintf(stderr, "WLC Error: %s: %s\n", msg, strerror(errno));
+ 	fprintf(stderr, "WLC Shirley Error: %s: %s\n", msg, strerror(errno));
 }
