@@ -1,0 +1,3 @@
+# this is one txt for the log position record
+
+wlc at the 002197 wsl ubuntu 2204 
