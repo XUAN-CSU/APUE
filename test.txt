@@ -3,3 +3,5 @@
 wlc at the 002197 wsl ubuntu 2204 
 
 wlc at the home to add something 20250127113
+
+wlc at the p775 wsl ubuntu 22.04
